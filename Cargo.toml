@@ -1,0 +1,16 @@
+[package]
+name = "tiles_rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4.0"
+anyhow = "1.0"
+clap = { version = "4.0", features = ["derive"] }
+log = "0.4"
+flexi_logger = "0.22"
+chrono = "0.4"
+
+[lib]
+name = "tiles_rs"
+path = "src/lib.rs"
